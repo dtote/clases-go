@@ -1,0 +1,37 @@
+{
+  "title": "MY Json example",
+  "id" : {
+    "subid" : {
+      "subsubid" : {
+        "subsubsubid" : {
+          "value" : -1
+        }
+      }
+    }
+  },
+  "data": [
+    {
+      "product": {
+        "name": "Product 1",
+        "startDate": "2020-01-01 00:00:00.000"
+      },
+      "active": true,
+      "price": 50.15,
+      "stock": 50,
+      "colors": [
+        "red",
+        "green",
+        "blue"
+      ]
+    },
+    {
+      "product": {
+        "name": "Product 2",
+        "startDate": "2020-01-01 00:00:00.000"
+      },
+      "active": false,
+      "price": 19.99,
+      "stock": 0
+    }
+  ]
+}
